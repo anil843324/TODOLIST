@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  justify-content: center;
+ 
+}
+.smallContainer {
+  margin-top: 50px;
+  width: 320px;
+  max-height: fit-content;
+  background-color: rgb(255, 89, 0);
+  border-radius: 6px;
+  
+}
+
+.heading{
+    font-weight: bold;
+    margin: 10px 100px;
+}
+
+.inputdiv{
+    display: flex;
+  align-items: center;
+ justify-content: center;
+ margin-bottom: 15px;
+
+ gap: 5px;
+}
+.inputdiv input{
+    height: 35px;  
+    border-radius: 7px;
+    width: 200px;
+   font-size: 17px;
+}
+.inputdiv input::-webkit-input-placeholder {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 3;
+    
+}
+.inputdiv addicon{
+
+
+}
+
+.outputdiv{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+gap: 8px;
+margin-bottom: 30px;
+
+}
+.showdata{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 224px;
+    height: 35px;
+    background-color: brown;
+   border-radius: 5px;
+   color: white;
+  padding: 6px;
+  
+}
